@@ -1,1 +1,1 @@
-# sn:snowflake:w retenti:snowflake:n
+# :snowflake:snow retention
