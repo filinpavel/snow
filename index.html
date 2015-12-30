@@ -31,11 +31,13 @@
     
     <script src="assets/js/modernizr.custom.js"></script>
     
+    <link href="assets/css/carousel.css" rel="stylesheet">
+    
   </head>
 
   <body>
 
-	<!-- Menu -->
+	<!-- Menu >
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
 			<h1 class="logo"><a href="index.html#home">СНЕГОПАХ</a></h1>
@@ -43,7 +45,7 @@
 			<a href="index.html">Home</a>
 			<a href="#">Документы</a>
 			<a href="#">Статьи</a>
-			<!-- a href="about.html">About</a -->
+
 			<a href="#contact">Контакты</a>
 			<a href="https://vk.com/snegopah" target=_blank><i class="fa fa-vk"></i></a>
 			<a href="http://ok.ru/group/52751373566165" target=_blank><i class="fa fa-odnoklassniki"></i></a>
@@ -51,11 +53,38 @@
 			<a href="mailto:snegopax@gmail.com"><i class="fa fa-envelope"></i></a>
 		</div>
 		
-		<!-- Menu button -->
+		<!-- Menu button >
 		<div id="menuToggle"><i class="fa fa-bars"></i></div>
 	</nav>
 	
-	<!-- MAIN IMAGE SECTION -->
+	<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Снегопах</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#cta">Как купить</a></li>
+            <li><a href="#contact">Контакты</a></li>
+            <li><a href="https://vk.com/snegopah" target=_blank><i class="fa fa-vk"></i></a></li>
+			<li><a href="http://ok.ru/group/52751373566165" target=_blank><i class="fa fa-odnoklassniki"></i></a></li>
+			<li><a href="https://www.youtube.com/playlist?list=PLWpCadB_VqpH7fI4jajBNZKhddNwwu11U" target=_blank><i class="fa fa-youtube-play"></i></a></li>
+			<li><a href="mailto:snegopax@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+            </li>
+          </ul>
+          </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	<!-- MAIN IMAGE SECTION >
 	<div id="headerwrap">
 		<div class="container">
 			<div class="row">
@@ -68,6 +97,63 @@
 			</div><!-- row -->
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
+	
+	
+	<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" "img-responsive" src="https://farm9.staticflickr.com/8604/16004400390_bfb08bf1e2_z.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><font color="white">Снегопах</font></h1>
+              <p>Снегопах представляет собой навесное сельскохозяйственное орудие, основу которого составляют передний и задний модули.</p>
+              <p><a class="btn btn-lg btn-primary" href="#cta" role="button">Как купить</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" "img-responsive" src="https://farm9.staticflickr.com/8572/15789561283_acac41a789_z.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><font color="white">Снегоочиститель</font></h1>
+              <p>Клин навешивается на переднюю навеску при помощи серийной автосцепки.
+При необходимости клин может навешиваться на заднюю навеску трактора.</p>
+              <p><a class="btn btn-lg btn-primary" href="#cta" role="button">Как купить</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" "img-responsive" src="https://farm9.staticflickr.com/8579/16005947887_e6cff553a8_b.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><font color="white">Снегопах-валкователь</font></h1>
+              <p>Снегопах рассчитан на накопление на поле 130 мм осадков при одноразовом снегозадержании. 
+              Опытной проверкой установлена прибавка урожая пшеницы 2,3 ц/га при
+использовании нового снегопаха.</p>
+              <p><a class="btn btn-lg btn-primary" href="#cta" role="button">Как купить</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+    
+    
 
 	<!-- WELCOME SECTION -->
     <div class="container">
@@ -82,7 +168,7 @@
       </div><!-- /row -->
     </div><!-- /.container -->
     
-    <!-- PORTFOLIO SECTION -->
+    <!-- PORTFOLIO SECTION >
     <div id="portfolio">
     	<div class="container"
 	    	<div class="row mt">
@@ -108,7 +194,7 @@
     </div><!-- portfolio -->
 
 
-	<!-- SERVICES SECTION -->
+	<!-- SERVICES SECTION >
 	<div id="services">
 		<div class="container">
 			<div class="row mt">
@@ -164,7 +250,7 @@
 				<!--p><a href="#"><i class="fa fa-link"></i> Подробнее</a></p-->
 			</div>
 			<div class="col-lg-4">
-				<img class="img-responsive" src="https://farm9.staticflickr.com/8565/16322161825_5628cd823e_z.jpg" alt="">
+				<img class="img-responsive" src="https://farm9.staticflickr.com/8572/15789561283_acac41a789_z.jpg" alt="">
 				<h3><a href="#">Снегопах СВШ-14</a></h3>
 				<p>Снегопах предназначен для снегозадержания, регулирования снеготаяния и очистки внутрихозяйственных дорог от снега. Агрегатируется с тракторами тягового класса 5 (К-701, Т-500). Снегопах СВШ-14 состоит из переднего навесного клина и задней прицепной части.</p>
 				<!--p><a href="#"><i class="fa fa-link"></i> Подробнее</a></p-->
@@ -203,7 +289,7 @@
 	</div><!-- dg -->
 	
 	
-	<!-- CALL TO ACTION -->
+	<!-- CALL TO ACTION --><p><a name="cta"></a></p>
 	<div id="call">
 		<div class="container">
 			<div class="row">
@@ -251,7 +337,7 @@
 		</div><!-- container -->
 	</div><!-- Social Footer -->
 	
-	<!-- CONTACT FOOTER ---><p><a name="contact"></a></p>
+	<!-- CONTACT FOOTER --->
 	<div id="cf">
 		<div class="container">
 			<div class="row">
@@ -260,7 +346,7 @@
 						<iframe height="400" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=54.1352864,83.1182848&amp;spn=67.34552,156.972656&amp;z=6&amp;output=embed"></iframe>
 					</div>	
 				</div><!--col-lg-8-->
-				<div class="col-lg-4">
+				<div class="col-lg-4"><p><a name="contact"></a></p>
 					<h4>АДРЕС<br/>Барнаул, Научный городок</h4>
 					<br>
 					<p>
@@ -301,30 +387,7 @@
 		} );
 	</script>
 	
-	<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter28163790 = new Ya.Metrika({
-                    id:28163790,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="//mc.yandex.ru/watch/28163790" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+	
 
 
   </body>
