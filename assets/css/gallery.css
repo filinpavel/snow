@@ -1,0 +1,184 @@
+/*****
+*
+*
+* Author Name : Mostafizur Rahman
+* Author URI : http://mostafiz.me
+* Description : This is a responsive HTML5 and Bootstrap portolio template developed my Mostafizur Rahman
+* Template URI : http://mostafiz.me/demo/folio/
+* Version : 1.1
+*
+*
+*****/
+
+
+/*portfolio area*/
+.portfolio h2{
+	font-size: 46px;
+	color: #02918c;
+	margin-top: 100px;
+	font-weight: 800;
+	margin-bottom: 35px;
+}
+.portfolio-row{
+	margin: 0;
+	padding: 0;
+}
+.portfolio-heading img{
+	margin-bottom: 30px;
+}
+.portfolio-heading p{
+	font-size: 16px;
+	color: #7e8287;
+	margin-bottom: 80px;
+}
+.single-portfolio{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.single-portfolio i.fa {
+  position: absolute;
+  z-index: 222;
+  right: 0px;
+  bottom: 0px;
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.39);
+  padding: 10px;
+  color: #fff;
+  display: none;
+}
+.single-portfolio:hover.single-portfolio i.fa{
+	display: block;
+}
+.portfolio-item{
+	position: relative;
+	z-index: 10;
+}
+.portfolio-details{
+	position: absolute;
+	z-index: 99;
+	top: 25px;
+  	left: 32px;
+	width: 80%;
+	height: 80%;
+	background: rgba(2, 145, 140, 0.77);
+	display: none;
+}
+.single-portfolio:hover .portfolio-details{
+	display: block;
+}
+.portfolio-item img{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.portfolio-details h4{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 800;
+	margin-top: 55px;
+}
+.portfolio-details p{
+	font-size: 13px;
+	color: #fff;
+	padding: 5px 20px;
+}
+
+/******************************
+responsive area
+********************************/
+/* lg */ 
+@media (min-width: 1200px) {
+	
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-service{
+		margin-bottom: 30px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		padding: 12px 10px;
+	}
+	input.message {
+	  width: 718px;
+	}
+}
+
+/* xs */
+@media (min-width: 480px) and (max-width: 767px) {
+	input.name {
+	  margin-top: 55px;
+	  width: 420px;
+	}
+	input.email{
+		width: 420px;
+	}
+	input.message{
+		width: 420px;
+	}
+	.banner h1 {
+	  font-size: 60px;
+	  letter-spacing: 3px;
+	}
+	.about-inside{
+		padding: 10px;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+	.logo{
+		margin-top: 10px;
+	}
+	input.name{
+		margin-top: 55px;
+		width: 275px;
+	}
+	input.email{
+		width: 275px;
+	}
+	input.message{
+		width: 275px;
+	}
+	.contact-form input.submit-btn{
+		width: 200px;
+		height: 50px;
+		border:0;
+	}
+	.banner h1 {
+		  font-size: 38px;
+		  letter-spacing: 0px;
+	}
+	.navbar-header{
+		margin-top: 5px !important;
+	}
+	.about-inside{
+		padding: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
