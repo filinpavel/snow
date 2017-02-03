@@ -1,4 +1,4 @@
 User-agent: *
-Host: www.snegopah.ru
+Host: snegopah.ru
 sitemap: http://snegopah/sitemap.xml
 Disallow: /assets
